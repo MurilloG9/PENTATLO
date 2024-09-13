@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentatlo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(180, 224, 241);
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .header {
+            background-color: rgb(184, 231, 231);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .header img:hover {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+            transform: translateY(5px);
+        }
+
+        .nav {
+            background-color: #00ada9;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            width: 100%;
+            text-align: center;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav a:hover {
+            background-color: #0b5755;
+        }
+
+        .titulo {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: relative;
+            font-size: 75px;
+            font-weight: bold;
+            color: black;
+            padding: 20px 40px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .titulotxt {
+            font-size: 21px;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .section {
+            margin: 50px auto;
+            max-width: 800px;
+        }
+
+        .section h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 20px;
+            background-color: #00ada9;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+
+        .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .section img:hover {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transform: translateY(10px);
+        }
+
+        .section ul {
+            font-size: 20px;
+            background-color: #00ada9;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+
+        footer {
+            font-size: 20px;
+            background-color: rgb(72, 161, 161);
+            text-align: center;
+            padding: 40px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1024px-Olympic_rings_without_rims.svg.png"
+            alt="Logo das Olimpíadas">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/1/12/PentatloModernoT%C3%B3quio2020.png"
+            alt="Logo do Pentatlo">
+    </header>
+    <nav class="nav">
+        <a href="#inicio"><b>Início</b></a>
+        <a href="#historia"><b>História</b></a>
+        <a href="#esgrima"><b>Esgrima</b></a>
+        <a href="#hipismo"><b>Hipismo</b></a>
+        <a href="#natacao"><b>Natação</b></a>
+        <a href="#tiro"><b>Tiro</b></a>
+        <a href="#corrida"><b>Corrida</b></a>
+        <a href="#acessorios"><b>Acessórios</b></a>
+        <a href="#ultimos-campeoes"><b>Últimos campeões</b></a>
+    </nav>
+    <div class="titulo">Pentatlo Moderno</div>
+    <p class="titulotxt">O Pentatlo Moderno é uma modalidade esportiva que combina cinco disciplinas diferentes:
+        esgrima, natação, hipismo, tiro e corrida.</p>
+
+    <section id="historia" class="section">
+        <h1>História</h1>
+        <p>O pentatlo moderno tem suas raízes no militarismo e na Grécia Antiga, onde era usado para selecionar os
+            soldados mais versáteis. Originalmente, incluía salto em distância e altura, lançamento de disco e dardo,
+            corrida e luta, com uma competição eliminatória que culminava em uma luta final para determinar o vencedor.
+            No final do século 19, o oficial sueco que idealizou o pentatlo moderno buscou simular a experiência de um
+            soldado em missão. O novo formato do esporte passou a incluir cavalgada, tiro, esgrima, natação e corrida.
+            Em Atlanta-1996, a competição foi reformulada para ser realizada em um único dia, visando aumentar a
+            dinâmica e atratividade para o público.</p>
+        <img src="https://www.jornalnewsvip.com.br/images/noticias/1365/6796ec6997e70f90a646c0912f4c79c4.jpg"
+            alt="História do Pentatlo">
+    </section>
+
+    <section id="esgrima" class="section">
+        <h1>Esgrima</h1>
+        <p>A esgrima é um esporte de combate que envolve o uso de armas brancas para atacar e defender-se do oponente.
+            Desenvolvida a partir das técnicas de combate com espadas usadas em duelos históricos, a modalidade evoluiu
+            para uma prática esportiva.</p>
+        <img src="https://www.paulistano.org.br/wp-content/uploads/2019/07/Clube-Paulistano-curso-esgrima.jpg"
+            alt="Esgrima">
+    </section>
+
+    <section id="hipismo" class="section">
+        <h1>Hipismo</h1>
+        <p>Hipismo é a modalidade da arte de montar a cavalo que compreende todas as práticas desportivas que envolvam
+            este animal. Sendo assim, é o maior esporte feito com cavalos no mundo inteiro. Dentre elas envolvem as
+            diferentes provas, como saltos, adestramento, corridas, atrelagem e polo.</p>
+        <img src="https://www.olimpiadatododia.com.br/wp-content/uploads/2023/06/hipismo-saltos-marlon-zanotelli.jpg"
+            alt="Hipismo">
+    </section>
+
+    <section id="natacao" class="section">
+        <h1>Natação</h1>
+        <p>A natação olímpica é uma modalidade esportiva disputada nos Jogos Olímpicos desde a primeira edição da era
+            moderna em 1896. Ela consiste em provas individuais e de revezamento em quatro estilos diferentes: crawl,
+            costas, peito e borboleta, realizadas em uma piscina de 50 metros de comprimento.</p>
+        <img src="https://img.nsctotal.com.br/wp-content/uploads/2024/03/natacao-foto-banco-de-imagens-2.jpg"
+            alt="Natação">
+    </section>
+
+    <section id="tiro" class="section">
+        <h1>Tiro</h1>
+        <p>Existem três categorias do tiro olímpico: rifle, pistola e espingarda. Este esporte envolve o uso de armas de
+            fogo para atingir alvos, que podem ser estáticos ou móveis, como pratos de argila.</p>
+        <img src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/uqqsf1bqehimculw6qlx"
+            alt="Tiro">
+    </section>
+
+    <section id="corrida" class="section">
+        <h1>Corrida</h1>
+        <p>É considerado o esporte mais antigo dos Jogos Olímpicos. Entre as provas do atletismo estão a de pista,
+            de campo, combinadas e de rua. As categorias são definidas de acordo com diferentes distâncias que vão
+            de 100 metros até 10.000 metros (na pista) e até 42 km na rua (maratona).</p>
+        <img src="https://www.infoescola.com/wp-content/uploads/2016/08/atletismo-pista_108529241.jpg" alt="Corrida">
+    </section>
+
+    <section id="acessorios" class="section">
+        <h1>Acessórios</h1>
+        <ul>
+            <li>Esgrima: máscara, jaqueta e luvas protetoras Florete, Sabre e Espada.</li>
+            <li>Hipismo: Capacete, Colete, Culote, Casacas e camisas.<br>Equipamentos para a proteção do cavalo:
+                Caneleira, Sela, Estribos, Luvas, Cabeçada, Chicote, Esporas, Correia de espora.</li>
+            <li>Natação: Óculos de Natação, Touca de Natação, Traje de Natação, Toalhas e Mochilas.</li>
+            <li>Tiro: Óculos de proteção, Luvas, armamento.</li>
+            <li>Corrida: Tênis de Corrida, Roupas de Corrida.</li>
+        </ul>
+        <img src="https://s2-ge.glbimg.com/k_u129U7tdzdIhU8oWZDOPCJRV0=/0x0:878x655/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/L/h/xW9l0HRwajwZUuhzRlYQ/6674287ccdfab349b70766b6.png"
+            alt="Acessórios">
+    </section>
+
+    <section id="ultimos-campeoes" class="section">
+        <h1>Últimos campeões</h1>
+        <p>Masculino:<br>Ouro: Egito - Ahmed El-Gendy<br>Prata: Japão - Taishu Sato<br>Bronze: Itália - Giorgio Malan
+        </p>
+        <p>Feminino:<br>Ouro: Hungria - Michelle Gulyás<br>Prata: França - Élodie Clouvel<br>Bronze: Coreia do Sul -
+            Seong Seung-min</p>
+        <img src="https://cdn.borainvestir.b3.com.br/2024/07/26122921/paris-2024-quanto-custam-medalhas-ouro-prata-bronze.webp"
+            alt="Últimos campeões">
+    </section>
+    <footer>
+        <center>Murillo - Thalles - Miguel M.
+            <br>
+            <h1>Trabalho Pentatlo Programação Web</h1>
+        </center>
+    </footer>
+</body>
+
+</html>
